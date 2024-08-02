@@ -97,7 +97,7 @@ class LinkedInScraper:
         logger.debug(f"Fetched company {res.status_code}")
         return res
 
-    def get_company_id_and_staff_count(self, company_name):
+    def get_company_id(self, company_name):
         """Extract company id and staff count from the company details."""
         res = self.fetch_or_search_company(company_name)
 
