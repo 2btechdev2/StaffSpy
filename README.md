@@ -2,11 +2,24 @@
 
 **StaffSpy** is a staff scraper library for LinkedIn.
 
+# NOTE
+⚠️ **This package is enhanced version of [StaffSpy](https://github.com/cullenwatson/StaffSpy) by [cullenwatson](https://github.com/cullenwatson).
+ for my specific need** ⚠️
+    
+**Refer to the original if you need general version.**
+**Enhancement is listed below in the [Features](#features) section. If you need that you can use it too.**
+
+This is not well tested and may not work as expected. Use at your own risk.
+For me, it works.
+
+If you want to use it just replace `staffspy` with `staffspy_enhanced`
+
 ## Features
 
 - Scrapes staff from a company on **LinkedIn**
 - Obtains skills, experiences, certifications & more
 - Aggregates the employees in a Pandas DataFrame
+- Fetch Company Details **(Enhancement)**
 
 [Video Guide for StaffSpy](https://youtu.be/qAqaqwhil7E) - _updated for release v0.1.4_
 

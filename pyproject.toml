@@ -1,8 +1,13 @@
 [tool.poetry]
-name = "staffspy"
-version = "0.2.3"
-description = "Staff scraper library for LinkedIn"
-authors = ["Cullen Watson <cullen@bunsly.com>"]
+name = "staffspy_enhanced"
+version = "0.2.4"
+description = """
+Staff scraper library for LinkedIn, customized for specific needs.
+Original author: Cullen Watson <cullen@bunsly.com>.
+GitHub: https://github.com/cullenwatson/StaffSpy
+Do not use this if you do not need enhanced functionality.
+"""
+authors = ["Kha333n <kha333n@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
