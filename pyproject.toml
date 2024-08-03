@@ -5,7 +5,7 @@ description = "Staff scraper library for LinkedIn, customized for specific needs
 authors = ["Kha333n <kha333n@gmail.com>"]
 readme = "README.md"
 packages = [
-    { include = "staffspy"}
+    { include = "staffspy", from = "." }
 ]
 
 [tool.poetry.dependencies]
